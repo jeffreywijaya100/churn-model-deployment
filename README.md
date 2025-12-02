@@ -1,29 +1,29 @@
-**Customer Churn Prediction — Machine Learning for Banking Retention Strategy**
+# **Customer Churn Prediction — Machine Learning for Banking Retention Strategy**
 
 Pada proyek ini, saya berperan sebagai Data Scientist di sebuah institusi perbankan dengan tanggung jawab untuk membangun sistem prediksi churn nasabah. Tujuan utama dari proyek ini adalah mendeteksi nasabah yang berpotensi meninggalkan layanan bank, sehingga manajemen dapat menerapkan strategi retensi secara proaktif dan tepat sasaran.
 
-📌 Tahapan Pengerjaan
-1. Machine Learning Modeling & Evaluation
+## Tahapan Pengerjaan
+### 1. Machine Learning Modeling & Evaluation
 
-    - Melakukan data pre-processing untuk memastikan kualitas input ke model:
+- Melakukan data pre-processing untuk memastikan kualitas input ke model:
     
-      - Handling missing values
+  - Handling missing values
       
-      - Encoding categorical variables
+    - Encoding categorical variables
       
-      - Scaling/normalization
+    - Scaling/normalization
     
-      - Train–test split
+    - Train–test split
     
-    - Membangun dan melatih model klasifikasi menggunakan Random Forest dan XGBoost
+  - Membangun dan melatih model klasifikasi menggunakan Random Forest dan XGBoost
     
-    - Melakukan hyperparameter tuning untuk meningkatkan performa model
+  - Melakukan hyperparameter tuning untuk meningkatkan performa model
     
-    - Mengevaluasi performa setiap model menggunakan classification report (precision, recall, F1-score, accuracy)
+  - Mengevaluasi performa setiap model menggunakan classification report (precision, recall, F1-score, accuracy)
     
-    - Memilih model terbaik berdasarkan performa pada test dataset dan menyimpan model dalam format .pkl menggunakan Pickle
+  - Memilih model terbaik berdasarkan performa pada test dataset dan menyimpan model dalam format .pkl menggunakan Pickle
 
-2. Model OOP Conversion
+### 2. Model OOP Conversion
 
   - Seluruh rangkaian proses training dari model terbaik diubah ke dalam bentuk Object-Oriented Programming
   
@@ -37,26 +37,26 @@ Pada proyek ini, saya berperan sebagai Data Scientist di sebuah institusi perban
       
     - Model saving
 
-3. Deployment Prediction Code
+### 3. Deployment Prediction Code
 
-    Menyusun script inference untuk deployment yang memuat:
+Menyusun script inference untuk deployment yang memuat:
   
-    - Load .pkl model
+- Load .pkl model
   
-    - Preprocessing input pengguna secara otomatis
+- Preprocessing input pengguna secara otomatis
   
-    - Fungsi prediksi churn untuk data baru
+- Fungsi prediksi churn untuk data baru
 
-4. Deployment via Streamlit
+### 4. Deployment via Streamlit
 
-    - Membangun UI sederhana pada Streamlit untuk memfasilitasi input data nasabah
+- Membangun UI sederhana pada Streamlit untuk memfasilitasi input data nasabah
   
-    - Integrasi dengan prediction code untuk memberikan hasil prediksi secara real-time
+- Integrasi dengan prediction code untuk memberikan hasil prediksi secara real-time
   
-    - Melakukan 2 pengujian test case untuk memverifikasi akurasi hasil prediksi dan stabilitas sistem
+- Melakukan 2 pengujian test case untuk memverifikasi akurasi hasil prediksi dan stabilitas sistem
 
 
-Testing with data:
+## Testing with data:
 
 - percobaan dengan data baris ke 0 : not churn
 
