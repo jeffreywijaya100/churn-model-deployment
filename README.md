@@ -1,6 +1,6 @@
 # **Customer Churn Prediction — Machine Learning for Banking Retention Strategy**
 
-Pada proyek ini, saya berperan sebagai Data Scientist di sebuah institusi perbankan dengan tanggung jawab untuk membangun sistem prediksi churn nasabah. Tujuan utama dari proyek ini adalah mendeteksi nasabah yang berpotensi meninggalkan layanan bank, sehingga manajemen dapat menerapkan strategi retensi secara proaktif dan tepat sasaran.
+Pada proyek ini, saya berperan untuk membangun sistem prediksi churn nasabah. Tujuan utama dari proyek ini adalah mendeteksi nasabah yang berpotensi meninggalkan layanan bank, sehingga manajemen dapat menerapkan strategi retensi secara proaktif dan tepat sasaran.
 
 ## Tahapan Pengerjaan
 ### 1. Machine Learning Modeling & Evaluation
